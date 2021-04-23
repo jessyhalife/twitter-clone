@@ -66,6 +66,13 @@ const Sidebar: React.FC = () => {
           </button>
         </li>
       </ul>
+      <div className={styles.user}>
+        <img
+          className={styles.avatar}
+          src="https://pbs.twimg.com/profile_images/1344362381963653121/84yk6Fdc_400x400.jpg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

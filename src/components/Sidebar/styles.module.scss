@@ -1,5 +1,4 @@
 .container {
-  
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -31,9 +30,22 @@ a {
 }
 
 a:hover {
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
   opacity: 0.5;
   border-radius: 50%;
 }
 
+.avatar {
+  align-self: flex-end;
+  border-radius: 50%;
+  max-width: 3rem;
+  bottom: 0;
+}
 
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  height: 100%;
+}
