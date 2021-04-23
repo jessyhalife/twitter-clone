@@ -10,7 +10,7 @@ WIP
 
 ⃞ Darkmode
 
-⃞ Fetch API 
+⃞ Fetch some tweets with TW API 
 
 
 
